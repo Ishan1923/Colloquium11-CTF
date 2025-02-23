@@ -1,0 +1,660 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Unity projects\\ColloquGarv - Copy\\fps.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\Unity projects\\ColloquGarv - Copy\\fps.AI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\fps.AI.csproj",
+        "projectName": "fps.AI",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.AI.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\fps.AI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj",
+        "projectName": "fps.Game",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\fps.Game\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\fps.Gameplay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Gameplay.csproj",
+        "projectName": "fps.Gameplay",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Gameplay.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\fps.Gameplay\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonChat.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonChat.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\fps.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\fps.UI.csproj",
+        "projectName": "fps.UI",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.UI.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\fps.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\fps.AI.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.AI.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Game.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\fps.Gameplay.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\fps.Gameplay.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\Unity.TextMeshPro.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.TextMeshPro.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\PhotonChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonChat.csproj",
+        "projectName": "PhotonChat",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonChat.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\PhotonChat\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj",
+        "projectName": "PhotonRealtime",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\PhotonRealtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj",
+        "projectName": "PhotonUnityNetworking",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\PhotonUnityNetworking\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.Utilities.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonRealtime.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.csproj",
+        "projectName": "Unity.ProBuilder",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\Unity.ProBuilder\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.KdTree.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.KdTree.csproj"
+              },
+              "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.Poly2Tri.csproj": {
+                "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.Poly2Tri.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.KdTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.KdTree.csproj",
+        "projectName": "Unity.ProBuilder.KdTree",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.KdTree.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\Unity.ProBuilder.KdTree\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.Poly2Tri.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.Poly2Tri.csproj",
+        "projectName": "Unity.ProBuilder.Poly2Tri",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.ProBuilder.Poly2Tri.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\Unity.ProBuilder.Poly2Tri\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unity projects\\ColloquGarv - Copy\\Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "D:\\Unity projects\\ColloquGarv - Copy\\Unity.TextMeshPro.csproj",
+        "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
+        "outputPath": "D:\\Unity projects\\ColloquGarv - Copy\\Temp\\obj\\Debug\\Unity.TextMeshPro\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
